@@ -47,7 +47,7 @@ if (curl_errno($curl)) {
 
     // Check if the response is valid JSON
     if (is_array($decodedResponse)) {
-        $decodedResponse["Api By"] = "@ShinChan7x";
+        $decodedResponse["Api By"] = "@dm_xyz";
 
         // Return formatted JSON response
         echo json_encode($decodedResponse, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
